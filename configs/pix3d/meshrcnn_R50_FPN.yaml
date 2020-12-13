@@ -1,6 +1,6 @@
 _BASE_: "MESH-RCNN-FPN.yaml"
 MODEL:
-  WEIGHTS: "https://dl.fbaipublicfiles.com/meshrcnn/pix3d/coco_init_0719.pth" # "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  WEIGHTS: "meshrcnn://coco_init_0719.pth" # "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
   MASK_ON: True
   VOXEL_ON: True
   MESH_ON: True
