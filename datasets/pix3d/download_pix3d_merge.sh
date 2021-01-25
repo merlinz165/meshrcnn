@@ -11,7 +11,7 @@ unzip -qq pix3d.zip
 
 BASE=https://lsp4dmodel.s3.eu-central-1.amazonaws.com
 
-wget $BASE/pix3d/pix3d_merge/pix3d_s1_train_merge.json
-wget $BASE/pix3d/pix3d_merge/pix3d_s1_test_merge.json
-wget $BASE/pix3d/pix3d_merge/pix3d_s2_train_merge.json
-wget $BASE/pix3d/pix3d_merge/pix3d_s2_test_merge.json
+wget $BASE/pix3d/pix3d_merge/pix3d_s1_train.json
+wget $BASE/pix3d/pix3d_merge/pix3d_s1_test.json
+wget $BASE/pix3d/pix3d_merge/pix3d_s2_train.json
+wget $BASE/pix3d/pix3d_merge/pix3d_s2_test.json
