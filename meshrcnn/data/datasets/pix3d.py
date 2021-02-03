@@ -126,6 +126,10 @@ Category ids in annotations are not in [1, #categories]! We'll apply a mapping f
                 field: anno[field] for field in ["iscrowd", "bbox", "category_id"] if field in anno
             }
 
+            cat_id = anno["category_id"]
+            if (cat_id == 5 or cat_id == 8 or cat_id == 9):
+                break
+
             segm = anno.get("segmentation", None)
             if segm:  # string
                 obj["segmentation"] = os.path.join(image_root, segm)
