@@ -21,8 +21,11 @@ def get_pix3d_metadata():
         {"name": "bed", "color": [255, 255, 25], "id": 1},  # noqa
         {"name": "bookcase", "color": [230, 25, 75], "id": 2},  # noqa
         {"name": "chair", "color": [250, 190, 190], "id": 3},  # noqa
+        {"name": "misc", "color": [230, 190, 255], "id": 5},  # noqa
         {"name": "sofa", "color": [0, 130, 200], "id": 6},  # noqa
         {"name": "table", "color": [245, 130, 48], "id": 7},  # noqa
+        {"name": "tool", "color": [70, 240, 240], "id": 8},  # noqa
+        {"name": "wardrobe", "color": [210, 245, 60], "id": 9},  # noqa
     ]
     return meta
 
